@@ -160,3 +160,4 @@ if prompt := st.chat_input("Ask me anything..."):
             
         except Exception as e:
             st.error(f"Error: {e}")
+            type(audio_response)
